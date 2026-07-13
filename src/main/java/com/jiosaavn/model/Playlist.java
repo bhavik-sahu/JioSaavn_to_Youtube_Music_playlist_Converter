@@ -10,17 +10,26 @@ public class Playlist {
     private List<Song> songs;
 
     public String getId() { return id; }
+
     public void setId(String id) { this.id = id; }
+
     public String getListName() { return listName; }
+
     public void setListName(String listName) { this.listName = listName; }
+
     public String getFirstname() { return firstname; }
+
     public void setFirstname(String firstname) { this.firstname = firstname; }
+
     public String getImage() { return image; }
+
     public void setImage(String image) { this.image = image; }
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
+
     public List<Song> getSongs() { return songs; }
+
     public void setSongs(List<Song> songs) { this.songs = songs; }
+
     public String getSongCount() { return songCount; }
+
     public void setSongCount(String songCount) { this.songCount = songCount; }
 }

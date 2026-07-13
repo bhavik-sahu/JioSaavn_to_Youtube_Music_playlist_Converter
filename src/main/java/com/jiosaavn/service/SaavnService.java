@@ -83,6 +83,6 @@ public class SaavnService {
         String line;
         while ((line = r.readLine()) != null) sb.append(line);
         r.close();
-        return sb.toString().replaceAll("\\\\\"", "\"");
+        return sb.toString();
     }
 }
